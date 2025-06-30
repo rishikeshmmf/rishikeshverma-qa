@@ -41,7 +41,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 px-4 text-center border-t border-gray-200 dark:border-gray-700">
         <p className="text-gray-600 dark:text-gray-400">
-          © 2024 Rishikesh Verma. Built with React & Tailwind CSS.
+          © 2025 Rishikesh Verma. 
         </p>
       </footer>
     </div>

@@ -3,9 +3,13 @@ import { Download, FileText } from 'lucide-react';
 
 const Resume = () => {
   const handleDownloadResume = () => {
-    // In a real application, this would link to an actual PDF file
-    alert('Resume download would be triggered here. Please upload your actual resume PDF to the project.');
-  };
+  const link = document.createElement('a');
+  link.href = '/dummy-resume.pdf';
+  link.download = 'Rishikesh_Verma_Resume.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
 
   const resumeHighlights = [
     "2+ years of QA Engineering experience",
@@ -86,15 +90,15 @@ const Resume = () => {
           </div>
           
           <div className="text-center">
-            <button
-              onClick={handleDownloadResume}
-              className="inline-flex items-center px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium shadow-lg"
-            >
-              <Download size={20} className="mr-2" />
-              Download Full Resume (PDF)
-            </button>
+              <button
+                onClick={handleDownloadResume}
+                className="inline-flex items-center px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium shadow-lg"
+              >
+                <Download size={20} className="mr-2" />
+                Download Full Resume (PDF)
+              </button>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-              Updated as of December 2024
+              Updated as of June 2025
             </p>
           </div>
         </div>

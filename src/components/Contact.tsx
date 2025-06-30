@@ -29,14 +29,14 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'rishikesh.verma@email.com',
-      link: 'mailto:rishikesh.verma@email.com'
+      value: 'rishikeshverma9@gmail.com',
+      link: 'mailto:rishikeshverma9@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 9876543210',
-      link: 'tel:+919876543210'
+      value: '+91 7693948120',
+      link: 'tel:+917693948120'
     },
     {
       icon: MapPin,
@@ -50,13 +50,13 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      link: 'https://linkedin.com/in/rishikesh-verma',
+      link: 'https://www.linkedin.com/in/rishikeshverma-softwarequalityengineer',
       color: 'text-blue-600'
     },
     {
       icon: Github,
       label: 'GitHub',
-      link: 'https://github.com/rishikesh-verma',
+      link: 'https://github.com/rishikeshmmf',
       color: 'text-gray-800 dark:text-gray-200'
     }
   ];
