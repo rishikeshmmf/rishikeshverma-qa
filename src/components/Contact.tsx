@@ -47,10 +47,10 @@ const Contact = () => {
           Get In Touch
         </h2>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-12 margin-top: 100 px;">
           {/* Contact Information */}
           <div>
-            <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
+            <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white ">
               Let's Connect
             </h3>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
